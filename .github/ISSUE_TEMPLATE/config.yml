@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Ask a question
+    url: https://github.com/montcao/viik-ai/discussions/categories/q-a
+    about: Questions about using viik go in Q&A Discussions.
   - name: Private help (account, data, privacy requests)
     url: mailto:support@viik.ai
     about: Email support@viik.ai for anything private. Please don't send your resume.

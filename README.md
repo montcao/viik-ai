@@ -31,6 +31,8 @@ viik works as a connector in your chat assistant. See [viik.ai](https://viik.ai/
 | --- | --- |
 | Report something that's broken | [Open a bug report](../../issues/new?template=bug_report.yml) |
 | Suggest a feature or improvement | [Open a feature request](../../issues/new?template=feature_request.yml) |
+| Ask a question about using viik | [Ask in Q&A](../../discussions/categories/q-a) |
+| Discuss an idea or share feedback | [Start a discussion](../../discussions) |
 | Get help with your account or data, or ask anything private | Email [support@viik.ai](mailto:support@viik.ai) |
 | Report a security problem | See [SECURITY.md](SECURITY.md). Do not open a public issue. |
 

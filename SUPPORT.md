@@ -8,6 +8,10 @@
 
 [Open a feature request](https://github.com/montcao/viik-ai/issues/new?template=feature_request.yml). Describe the problem you're trying to solve, not only the solution you have in mind.
 
+## You have a question
+
+Ask in [Q&A Discussions](https://github.com/montcao/viik-ai/discussions/categories/q-a). Someone else may have asked already, so search first. For open-ended ideas and feedback, use [Discussions](https://github.com/montcao/viik-ai/discussions).
+
 ## Anything private
 
 Email **support@viik.ai** for anything about your own data, privacy requests (access, correction, deletion), or anything you'd rather not post publicly. Say which chat assistant you used and what happened. Please do not send your resume.
