@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private help (account, data, privacy requests)
+    url: mailto:support@viik.ai
+    about: Email support@viik.ai for anything private. Please don't send your resume.
+  - name: Report a security problem
+    url: https://github.com/montcao/viik-ai/blob/main/SECURITY.md
+    about: Never report security problems in a public issue. Follow the security policy.
+  - name: Documentation
+    url: https://viik.ai/docs/
+    about: How to add viik to your chat and use it.

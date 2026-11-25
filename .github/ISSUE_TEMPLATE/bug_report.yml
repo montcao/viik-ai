@@ -1,0 +1,83 @@
+name: Bug report
+description: Something in viik isn't working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        > [!WARNING]
+        > **This issue will be public.** Do not paste your resume, name, email address, phone number, or any other personal details. Describe the problem in general terms instead. For anything private, email support@viik.ai.
+
+  - type: dropdown
+    id: assistant
+    attributes:
+      label: Chat assistant
+      description: Where were you using viik?
+      options:
+        - Claude
+        - ChatGPT
+        - viik.ai website
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feature
+    attributes:
+      label: What were you doing?
+      options:
+        - Reviewing my resume
+        - Formatting my resume
+        - Finding matching jobs
+        - Downloading a PDF or Word file
+        - Adding or connecting viik
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe what went wrong. Include any error message shown, but remove personal details.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you ask viik to do, step by step?
+      placeholder: |
+        1. Asked viik to review my resume
+        2. Uploaded a two-column PDF
+        3. ...
+    validations:
+      required: false
+
+  - type: input
+    id: when
+    attributes:
+      label: Approximately when did it happen?
+      description: Date, time, and time zone help us find the problem in our logs.
+      placeholder: "2026-11-25 around 14:30 UTC"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have not included my resume or any personal details in this issue.
+          required: true
